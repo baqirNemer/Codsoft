@@ -1,0 +1,145 @@
+<!-- mohammadbaqir kamal nemer -->
+<!doctype html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/HomePage.css" type="text/css"> 
+</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    });
+  </script>
+<body>
+
+    <section class="header">
+        <div class="logo"> 
+            <a style="font-size: 30px;">logo</a> 
+        </div>
+        <div class="navbar">
+            <ul id="menu">
+                <li id="l1"> <a href="#do">About</a> </li>
+                <li id="l1"> <a href="#pro">Skills</a> </li>
+                <li id="l1"> <a href="#proj">Projects</a> </li>
+                <li id="l1"> <a href="../Portfolio//CV_MohamadBaqir Nemer.pdf" target="_blank">Resume</a> </li>
+                <li id="l1"> <a href="#contact">Contact</a> </li>
+                <li id="l1"> <a href="#'footer">Footer</a> </li>
+            </ul>
+        </div>    
+    </div>
+    </section>
+    
+    <section class="me" id="me">
+        <div class="left">
+            <h1>Hi, I'm MohammadBaqir Nemer</h1>
+            <a>A passionate Full Stack Software Developer having an experience of building Web with JavaScript / php (learning nodejs right now) and some other cool libraries and frameworks</a>
+            <div>
+                <a href="https://wa.me/96171849637" target="_blank"><img class="icon" src="images/whats.png"></a>
+                <a href="https://www.instagram.com/baqir_nemer?igsh=dXdyanhiaWp5bno0" target="_blank"><img class="icon" src="images/Instagram.png"></a>
+                <a href="https://www.facebook.com/share/jYVSH9fgq96dvkb9/?mibextid=qi2Omg" target="_blank"><img class="icon" src="images/facebook.png"></a>
+                <a href="https://linkedin.com/in/mohammadbaqir-nemer-88ba9b196/" target="_blank"><img class="icon" src="images/link.png" ></a>
+            </div>
+            <div class="btn1">
+                <a>CONTACT ME</a>
+            </div>
+            <div class="btn2">
+                <a href="../Portfolio//CV_MohamadBaqir Nemer.pdf" target="_blank">SEE MY RESUME</a>
+            </div>
+        </div>
+        <div class="right">
+            <a><img id="img0" src="images/me.png" alt="Me"></a>
+        </div>
+    </section>
+
+    <section class="do" id="do">
+        <div class="left">
+            <img src="images/do.jpg" alt="whatido" id="img2"> 
+        </div>
+        <div class="right">
+            <h1>What I do</h1>
+            <p>web development</p>
+            <p>creating designs(adobe photoshop, illustrator)</p>
+            <p>video editing(adobe premiere pro)</p>
+            <p>other languages (c++, java )</p>   
+        </div>
+    </section>
+
+    <section class="proficiency" id="pro">
+        <div class="left">
+            <h1>Proficiency</h1>
+            <p>Frontend/Design</p>
+            <div class="proficiency-level" data-level="80"></div>
+            <p>backend</p>
+            <div class="proficiency-level" data-level="60"></div>
+            <p>Programming</p>
+            <div class="proficiency-level" data-level="65"></div>
+        </div>
+        <div class="right">
+            <img src="images/prof.svg" alt="proficiency">
+        </div>
+    </section>
+    
+    <section class="projects" id="proj">
+        <div class="top1" style="width: 100%;">
+            <h1>Academic Projects</h1>
+        </div>
+        <div class="cell">
+            <h3>E-commerce shopping counsel</h3>
+            <p>using C++, I made a code for shopping items (item list read from a Txt file). </p>
+        </div>
+        <div class="cell">
+            <h3>Tv series website</h3>
+            <p>using HTML and CSS I made a website for tv series (list of series). <a href="../Portfolio/more.html">see Demonstration</a><</p>
+        </div>
+        <div class="cell">
+            <h3>E-commerce shopping site: </h3>
+            <p>Design and development of shopping. site system. Among the features are: the login and registration system for users and administrators, the creation of a shopping cart, and the management of orders and sales by the admin. Made with Java, PHP and MySQL. <a href="https://vimeo.com/782926299">see Demonstration</a></p>
+        </div>
+        <div class="cell">
+            <h3>Magazine</h3>
+            <p>Magazine layout:including cover page and everything a magazine should have (dynamic page numbers, design, ...) using Adobe InDesign
+                Company logo: I choose a company and made a new logo for it. Company stationery: Letterhead, envelope, business card. 
+                </p>
+        </div>
+        <div class="cell">
+            <h3>Pc-parts Shopping counsel</h3>
+            <p>using Java, I and my teammate made a code that access data from MongoDB and JSON file and allow the user to: see items list, add/delete item, buy/edit item and save the changes made to JSON file and MongoDB database. <a href="../Portfolio/OOP1_Progect-MohammadBaqir Nemer-Jaafar Safeiddine.pptx">see Demonstration</a></p>
+        </div>
+        <div class="cell">
+            <h3>SIS GUI</h3>
+            <p>using JavaFx and mongodb, I and my teammate made a code that access data from MongoDB and made a user interface where we have 3 users admin, teacher and student, each user has specific functions.</p>
+        </div>
+        <div class="btn3">
+            <a>MORE PROJECTS</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="left">
+            <h1>Reach Out to me!</h1>
+            <p><a href="mailto:baqirnemer@gmail.com" target="_blank">📩 baqirnemer@gmail.com</a></p>
+            <p><a href="https://wa.me/96171849637" target="_blank">📞 +961 71 849 637</a></p>
+        </div>
+        <div class="right">
+
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-content" id="footer">
+            <p>&copy; 2024 MohammadBaqir nemer. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
