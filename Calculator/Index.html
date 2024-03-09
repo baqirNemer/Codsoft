@@ -1,0 +1,107 @@
+<!-- mohammadbaqir kamal nemer -->
+<!doctype html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/HomePage.css" type="text/css"> 
+</head>
+<script>
+    let currentInput = '0';
+    let operator = '';
+    let prevInput = '0';
+
+    function updateResult(result){
+        document.getElementById('result').innerText = result;
+    }
+
+    function appendNumber(number){
+        if (currentInput === '0' || currentInput === '-0') {
+            currentInput = number;
+        } else {
+            currentInput += number;
+        }
+        updateResult(currentInput);
+    }
+
+    function setOperator(op){
+        operator = op;
+        prevInput = currentInput;
+        currentInput = '0';
+    }
+
+    function calculate(){
+        let result;
+        switch(operator){
+            case '+':
+                result = parseFloat(prevInput) + parseFloat(currentInput);
+                break;
+            case '-':
+                result = parseFloat(prevInput) - parseFloat(currentInput);
+                break;
+            default:
+                result = currentInput;
+        }
+        updateResult(result);
+        currentInput = result.toString();
+        operator = '';
+        prevInput = '0';
+    }
+</script>
+
+
+<body>
+    <div id="bg">
+        <div id="bx1">
+            <div class="row1">
+                <div class="bx2" > 
+                    <span id="result">0</span>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="bx3" onclick="appendNumber('7')"> 
+                    <a>7</a>
+                </div>
+                <div class="bx3" onclick="appendNumber('8')"> 
+                    <a>8</a>
+                </div>
+                <div class="bx3" onclick="appendNumber('9')"> 
+                    <a>9</a>
+                </div>
+                <div class="bx3" onclick="setOperator('+')"> 
+                    <a>+</a>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="bx3" onclick="appendNumber('4')"> 
+                    <a>4</a>
+                </div>
+                <div class="bx3" onclick="appendNumber('5')"> 
+                    <a>5</a>
+                </div>
+                <div class="bx3" onclick="appendNumber('6')"> 
+                    <a>6</a>
+                </div>
+                <div class="bx3" onclick="setOperator('-')"> 
+                    <a>-</a>
+                </div>  
+            </div>
+            <div class="row2">
+                <div class="bx3" onclick="appendNumber('1')"> 
+                    <a>1</a>
+                </div>
+                <div class="bx3" onclick="appendNumber('2')"> 
+                    <a>2</a>
+                </div>
+                <div class="bx3" onclick="appendNumber('3')"> 
+                    <a>3</a>
+                </div>
+                <div class="bx3" onclick="calculate()">
+                    <a>=</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
