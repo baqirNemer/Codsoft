@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 73 20" style="enable-background:new 0 0 73 20;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Tahoma';}
+	.st3{font-size:9px;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-7.094059e-11" y1="10" x2="73" y2="10">
+	<stop  offset="0" style="stop-color:#FFC94A"/>
+	<stop  offset="1" style="stop-color:#AE00F4"/>
+</linearGradient>
+<path class="st0" d="M63,20H10C4.48,20,0,15.52,0,10v0C0,4.48,4.48,0,10,0l53,0c5.52,0,10,4.48,10,10v0C73,15.52,68.52,20,63,20z"/>
+<text transform="matrix(1 0 0 1 11.3345 13.7866)" class="st1 st2 st3">READ MORE</text>
+</svg>

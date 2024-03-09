@@ -1,0 +1,606 @@
+/* mohammadbaqir kamal nemer */
+body, html {
+	height: 100%;
+	width: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+
+}
+
+.top {
+	background-image: url(../Images/gradient.png);
+	height: 95%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	margin-top: 0em;
+	
+}
+.top1{
+	display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+	height: 7%;
+    padding-left: 14%;
+	padding-right: 14%;
+	
+}
+.top1 .next {
+	position: relative;
+	float: left;
+	width: auto;
+	
+}
+
+.top1 .btn {
+	position: relative;
+	float: left;
+	width: 20%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: white;
+	border-color: white;
+	border-radius: 20px; 
+	padding: 5px; 
+	text-align: center;
+	cursor: pointer;
+}
+.top1 .next #img0{
+	height: 2em;
+}
+.top2{
+	float: left;
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(255, 255, 255);
+	padding-left: 14%;
+	padding-right: 14%;
+	width: 100%;
+	height: 10%;
+	align-items: center;
+}
+.top2 .img1 {
+	position:relative;
+	float:left;
+	width:80%;
+	margin-right:0%;
+	
+}
+.top2 .navbar{
+	position:relative;
+	float:left;
+	width:80%;
+
+}
+.top2 #menu{
+	margin-bottom: 0;
+	margin-left: -2em;
+}
+.top2 #menu li{
+	position: relative;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	width: 4.5em;
+}
+
+.top2 #menu li a{
+	display: block;
+	background: rgb(255, 255, 255);
+	padding: 15% 10%;
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+
+}
+
+.top2  #menu li a:hover {
+	background-color: rgba(241, 137, 0, 0.808);
+} 
+
+
+.top2 .search-container {
+    display: flex;
+    align-items: center;
+}
+
+.top2 .form-inline.my-2.my-lg-0 {
+    margin-bottom: 0;
+    margin-right: 0em;
+	width: 2.5em;
+}
+
+.top2 .form-inline.my-2.my-lg-0 .form-control.mr-sm-2 {
+    width: 3em;
+}
+
+.top2 #menu li .btn {
+    margin-left: 0.5em;
+}
+
+.top3{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+
+}
+.top3 #myCarousel{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+.top3 #myCarousel .carousel-inner .carousel-item.active img {
+    height: 50vh;
+}
+
+.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption{
+	height: 100%;
+	padding-top: 10%;
+}
+
+.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption .vline{
+	position: relative;
+	float: left;
+	width: 0.5em;
+	height: 10em;
+	background: linear-gradient(to bottom, yellow, rgb(231, 86, 231)); 
+}
+
+.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption .right {
+	position: relative;
+	float: left;
+	text-align: left;
+	font-weight: bold;
+	padding-left: 10px;
+	color: rgb(247, 247, 247);
+}
+.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption .right #btn{
+	position: relative;
+    float: left;
+    width: 25%;
+    margin-top: 1%;
+	font-size: 13px;
+	font-weight: bold;
+    margin-bottom: 1%;
+    border: none; 
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(to right, yellow, rgb(231, 86, 231)); 
+    color: white;
+}
+.top4 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+	width: 100%;
+    padding-left: 14%;
+	padding-right: 14%;
+}
+
+.top4 .container {
+    position: relative;
+    float: left;
+	width: 28%;
+	padding-top: 1%;
+	padding-bottom: 0%;
+}
+
+.top4 .container .top {
+    position: relative;
+    height: 4em;
+    background: none;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.top4 .container .top .img2 {
+    position: relative;
+    float: left;
+    margin-right: 0.5em;
+}
+
+.top4 .container .top .text3 {
+    font-size: 16px;
+    margin-top: 0.8em;
+    margin-left: 0;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.top4 .container .bottom {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    height: 7em;
+    background: none;
+    display: flex;
+    align-items: center;
+	font-size: 14px;
+}
+
+
+
+.center{
+	background-image: url(../Images/bg2.jpg);
+	height: 30em;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	float: left;
+	margin-top: 0em;
+}
+.center .left{
+	position: relative;
+	float: left;
+	width: 41%;
+	margin-left: 14%;
+	margin-top: 2%;
+
+}
+.center .left .line{
+	width: 5em;
+	height: 0.4em;
+	margin-bottom: 1em;
+	background: linear-gradient(to right, yellow, rgb(231, 86, 231)); 
+}
+.center .left .btn {
+    position: relative;
+    float: left;
+    width: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: none; 
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(to right, yellow, rgb(231, 86, 231)); 
+    color: white;
+}
+
+
+.center .right{
+	position: relative;
+	float: left;
+	width: 31%;
+	height: 100%;
+	margin-left: 2%;
+	margin-top: 4%;
+}
+
+
+.bottom{
+	background-image: url(../Images/bg3.jpg);
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	float: left;
+	margin-top: 0em;
+}
+.bottom .up{
+	padding-top: 2%;
+	margin-left: 14%;
+	margin-right: 14%;
+}
+.bottom .up .line{
+	width: 5em;
+	height: 0.4em;
+	margin-bottom: 1em;
+	background: linear-gradient(to right, yellow, rgb(231, 86, 231)); 
+}
+.bottom .down{
+	margin-left: 14%;
+	margin-right: 14%;
+	width: 72%;
+	
+}
+.bottom .down .container{
+	position: relative;
+	float: left;
+	width: 33%;
+	padding-top: 1%;
+	padding-bottom: 0%;
+}
+.bottom .down .container .img3{
+	position: relative;
+	height: 20%;
+	background: none;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+.bottom .down .container .img3 #imgd{
+	height: 200px;
+	width: 270px;
+}
+
+.bottom .down .container .title{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 5%;
+	margin-top: -20%;
+	margin-left: 15%;
+}
+
+.bottom .down .container .title .icon {
+	position: relative;
+    float: left;
+    width:3em;
+    border: none; 
+    border-radius: 80px;
+    align-items: center;
+    cursor: pointer;
+    background: linear-gradient(to right, yellow, rgb(231, 86, 231)); 
+    color: white;
+}
+
+.bottom .down .container .title .text2{
+	padding: 5%;
+	background-color: white;
+	width: 75%;
+	margin-left: 10%;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+@media only screen and (max-width: 1250px){
+	.top2 #menu li a{
+		font-size: 12px;
+		font-weight: bold;
+		
+	}
+	.top2 #menu #l2{
+		margin-left: 1em;
+		width: 100%;
+	}
+	.top2 .form-inline.my-2.my-lg-0 {
+		margin-bottom: 0;
+		margin-right: 0em;
+		width: 80%;
+	}
+	
+	.top2 .form-inline.my-2.my-lg-0 .form-control.mr-sm-2 {
+		width: 90%;
+	}
+	
+	.top2 #menu li .btn {
+		margin-left: -2em;
+	}
+}
+@media only screen and (max-width: 1170px){
+	.top1 .btn {
+		width: 25%;
+	}
+	.top2 .navbar{
+		position:relative;
+		float:left;
+		width:80%;
+		margin-left: -2em;
+		padding: 0;
+	
+	}
+	.top2 #menu li{
+		width: 4em;
+	}
+	
+	.top2 #menu li a{
+		font-size: 11px;
+		font-weight: bold;
+		
+	}
+	
+	.top2  #menu li a:hover {
+		background-color: rgba(241, 137, 0, 0.808);
+	} 
+
+	.top4 .container {
+		width: 33%;
+	}
+	.center .left{
+		font-size: 14px;
+	
+	}
+
+	.center .left .btn {
+		width: 35%;	
+	}
+	.center .right{
+		margin-top: 8%;
+	}
+
+	.bottom .down .container .img3 #imgd{
+		height: 150px;
+		width: 220px;
+	}
+
+	
+} 
+
+@media only screen and (max-width: 1000px){
+	.top{
+		height: 145%;
+	}
+	.top1{
+		height: 5%;
+	}
+	.top1 .next {
+		font-size: 12px;
+	}
+	.top1 .btn {
+		font-size: 12px;
+		width: 20%;
+	}
+	.top1 .next #img0{
+		height: 2em;
+		width: 2em;
+	}
+
+	.top2 {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+		
+    }
+
+    .top2 .img1 {
+        margin-right: 0;
+		margin-left: 14%;
+		margin-right: 14%;
+    }
+
+    .top2 .navbar {
+        width: 72%;
+		margin-left: 14%;
+		margin-right: 14%;
+    }
+
+    .top2 #menu {
+        margin-left: 0;
+    }
+
+    .top2 #menu li {
+        width: 100%;
+    }
+
+    .top2 #menu li a {
+        padding: 5px;
+		font-size: 14px;
+    }
+
+	.top2 #menu #l2{
+		margin-left: 0em;
+		width: 100%;
+	}
+	.top2 .form-inline.my-2.my-lg-0 {
+		margin-bottom: 0;
+		margin-right: 0em;
+		width: 100%;
+	}
+	
+	.top2 .form-inline.my-2.my-lg-0 .form-control.mr-sm-2 {
+		width: 100%;
+	}
+	
+	.top2 #menu li .btn {
+		margin-left: 0;
+	}
+
+	.top3 #myCarousel .carousel-inner .carousel-item.active img {
+		height: 300px; 
+	}
+
+
+	.top4 {
+		display: block;
+	}
+	
+	.top4 .container {
+		width: 100%;
+	}
+
+	.center .left{
+		font-size: 14px;
+	
+	}
+	.center .left h4{
+		font-size: 15px;
+	
+	}
+
+	.center .left .btn {
+		width: 70%;
+		font-size: 12px;
+	}
+	
+	
+	.center .right{
+		margin-top: 15%;
+	}
+	
+	
+
+	.bottom .down .container{
+		width: 100%;
+	}
+
+	.bottom .down .container .title .icon {
+		width:3em;	
+	}
+	
+	.bottom .down .container .title .text2{
+		padding: 2%;
+		width: 60%;
+		margin-left: 6%;
+		
+	}
+}
+@media only screen and (max-width: 980px){
+
+	.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption{
+		padding-top: 15%;
+	}
+	.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption .vline{
+		position: relative;
+		float: left;
+		width: 0.3em;
+		height: 6.5em; 
+	}
+	.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption .right h2{
+		font-size: 16px;
+	}
+	.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption .right h3{
+		font-size: 12px;
+	}
+	.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption .right h5{
+		font-size: 8px;
+	}
+
+	.top3 #myCarousel .carousel-inner .carousel-item .carousel-caption .right #btn{
+		width: 35%;
+		font-size: 10px;
+	}
+}
+@media only screen and (max-width: 640px){
+	.top1{
+		height: 5%;
+		padding-left: 4%;
+		padding-right: 4%;
+		width: 100%;
+	}
+	.top1 .next {
+		font-size: 12px;
+	}
+	.top1 .btn {
+		font-size: 9px;
+		width: 15%;
+	}
+	.top1 .next #img0{
+		height: 1.4em;
+		width: 1.4em;
+	}
+	.center .left{
+		font-size: 12px;
+	
+	}
+	.center .left h4{
+		font-size: 13px;
+	
+	}
+	.center .right{
+		padding-top: 20%;
+	}
+}
